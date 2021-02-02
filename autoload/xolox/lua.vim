@@ -16,11 +16,11 @@ function! xolox#lua#includeexpr(fname) " {{{1
     call xolox#misc#msg#debug("lua.vim %s: Expanded %s -> %s", g:xolox#lua#version, template, expanded)
     if filereadable(expanded)
       call xolox#misc#msg#debug("lua.vim %s: Matched existing file %s", g:xolox#lua#version, expanded)
-      echo expanded
       return expanded
     endif
   endfor
   " Default to given name.
+  echo fname
   return a:fname
 endfunction
 
