@@ -1,7 +1,7 @@
 " Vim file type plug-in
 " Language: Lua 5.2
 " Author: Peter Odding <peter@peterodding.com>
-" Last Change: June 17, 2014
+" Last Change: February 2, 2021
 " URL: http://peterodding.com/code/vim/lua-ftplugin
 
 if exists('b:did_ftplugin')
